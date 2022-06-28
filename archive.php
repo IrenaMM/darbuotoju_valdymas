@@ -1,6 +1,5 @@
 <?php
 include_once 'config.php';
-
 ?>
 
 <h1>Archive</h1>
