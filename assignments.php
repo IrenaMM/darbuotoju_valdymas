@@ -2,6 +2,7 @@
 include_once 'config.php';
 ?>
 
+
 <h1>Assignments</h1>
 
 <footer>
