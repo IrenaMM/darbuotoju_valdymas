@@ -11,9 +11,7 @@ if (!$database) {
     echo 'Pavyko pridėti' . '<hr>';
 }
 
-
 ?>
-
     <table>
         <tr>
             <td>
