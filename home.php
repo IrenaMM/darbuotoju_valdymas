@@ -33,9 +33,7 @@ $employees = mysqli_fetch_all($result, MYSQLI_ASSOC);
                 </td>
             </tr>
         </table>
-
     </form>
-
 
     <table border="1" cellpadding="10">
         <tr>
@@ -86,7 +84,7 @@ $assignments = mysqli_fetch_all($result, MYSQLI_ASSOC);
                 <td>
                     <select placeholder="Employees" name="employee_id" multiple>
                         <?php foreach ($employees as $employee) { ?>
-                            <option value="<?php echo $employee['id'] ?>"><?php echo $employee['first_name'] ?> <?php echo $employee['last_name'] ?></option>
+                            <option value="<?php echo $employee['id'] ?>"><?php echo $employee['first_name'] ?><?php echo $employee['last_name'] ?></option>
                         <?php } ?>
                     </select>
 
